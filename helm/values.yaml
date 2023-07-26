@@ -1,0 +1,5 @@
+image: template:latest
+imagePullSecrets: regcred
+environments:
+  - name: ENVIRONMENT_KEY
+    value: 300

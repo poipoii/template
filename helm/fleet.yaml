@@ -1,0 +1,8 @@
+# targetCustomizations:
+#   - name: template-cluster-name
+#     clusterSelector:
+#       matchLabels:
+#         deployment: template-cluster-name
+#     helm:
+#       valuesFiles:
+#         - values.yaml

@@ -1,0 +1,21 @@
+version: '3'
+
+volumes:
+  template_data:
+
+# services:
+#   build:
+#     context: .
+#     dockerfile: ./compose/Dockerfile
+#   image: template
+#   container_name: template
+#   depends_on:
+#     - postgres
+#   volumes:
+#     - .:/app:z
+#     - template_data:/data
+#   env_file:
+#     - ./.env
+#   ports:
+#     - 8080:8080
+#   command: /start
